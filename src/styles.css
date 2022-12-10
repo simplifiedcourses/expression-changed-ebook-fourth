@@ -1,0 +1,24 @@
+/* Add application styles & imports to this file! */
+* {
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.book img {
+  width: 250px;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: #267373;
+  text-decoration: none;
+}
