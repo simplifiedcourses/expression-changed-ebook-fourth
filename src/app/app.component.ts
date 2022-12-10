@@ -8,8 +8,8 @@ import { ChildComponent } from './child/child.component';
   styleUrls: ['./app.component.css'],
   imports: [CommonModule, ChildComponent],
   template: `
-  {{name}}
   <child></child>
+  {{name}}
   `,
 })
 export class AppComponent {
